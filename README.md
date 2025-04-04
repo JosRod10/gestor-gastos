@@ -1,5 +1,14 @@
 # GastosApp
 
+Sistema para registro de ingresos y egresos con ANGULAR 19 muestra un balance y gráficos.
+Formulario reactivo
+Uso de librería Chart.js para gráficos.
+Exportar a EXcel.
+
+![Interfaz](src/app/assets/g_bas.png)
+![Interfaz](src/app/assets/g_exc.png)
+![Interfaz](src/app/assets/g_frm.png)
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
 ## Development server

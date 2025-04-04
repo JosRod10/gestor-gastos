@@ -1,0 +1,22 @@
+
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card mb-4">
+                <div class="card-header text-center">
+                <h5 class="mb-0"><i class="bi bi-plus-circle"></i> Gestor De Gastos</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <app-formulario-gasto (gastoAgregado)="agregarGasto($event)"></app-formulario-gasto>
+      </div>
+      <div class="col-md-6">
+        <app-lista-gastos [gastos]="gastosService.obtenerGastos()" [limite]="5"></app-lista-gastos>
+        <app-grafico-gastos [gastos]="gastosService.obtenerGastos()"></app-grafico-gastos>
+      </div>
+    </div>
+  </div>

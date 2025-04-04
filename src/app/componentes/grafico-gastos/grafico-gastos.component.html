@@ -1,0 +1,18 @@
+<!-- grafico-gastos.component.html -->
+<div class="card">
+    <div class="card-header">
+      <h5 class="mb-0"><i class="bi bi-pie-chart"></i> Distribución por Categoría</h5>
+    </div>
+    <div class="card-body">
+      <div *ngIf="gastos.length > 0; else noData" class="chart-container">
+        <canvas baseChart
+          [data]="chartData"
+          [options]="chartOptions"
+          type="pie">
+        </canvas>
+      </div>
+      <ng-template #noData>
+        <div class="alert alert-info">No hay datos para mostrar el gráfico</div>
+      </ng-template>
+    </div>
+  </div>
