@@ -1,4 +1,4 @@
-# GastosApp
+# Gestor de Gastos en Angular 19
 
 Sistema para registro de ingresos y egresos con ANGULAR 19 muestra un balance y gráficos.
 Formulario reactivo
